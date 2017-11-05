@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Admin Panel</title>
+	<link rel="stylesheet" href="resources/css/bootstrap.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+<!--header-->
+	<nav class="navbar navbar-default menu">
+  		<div class="container-fluid">
+    		<div class="navbar-header" id="header">
+      			<a class="navbar-brand" href="#">
+      				<img src="http://localhost/blog/image/logo/logo.png" class="img-thumbnail" alt="logo">
+      				<h1>Webstie Title</h1>
+      				<p>Website Description</p>
+      			</a>
+    		</div>
+    		<ul class="nav navbar-nav navbar-right">
+    			<li><img src="http://localhost/blog/image/default.jpeg" alt="image" class="img-circle"></li>
+      			<li><a href="user-profile.php">admin</a></li>
+      			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      				<span class="caret"></span></a>
+        			<ul class="dropdown-menu">
+          				<li><a href="change-password.php">Change password</a></li>
+          				<li><a href="logout.php">log out</a></li>
+        			</ul>
+      			</li>
+    		</ul>
+  		</div>
+	</nav>
+<!--header-->
+<!--main content-->
+	<div class="container-fluid display-table">
+		<div class="row display-table-row">
+<!--sidebar-->
+			<div class="col-md-2 display-table-cell" id="side-menu">
+				<div class="side-menu-content">
+					<div class="hover">
+						<a href="index.php"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>Dashboard</a>
+					</div>
+					<div class="hover" onclick="accordion(0)">
+						<a><span class="glyphicon glyphicon-home"></span>Apperance</a>
+					</div>
+					<div>
+						<div class="collapse">
+							<div class="hover"><a href="title-description.php"><span class="glyphicon glyphicon-film"></span>Title &amp; Description</a></div>
+							<div class="hover"><a href="social-media.php"><span class="glyphicon glyphicon-picture"></span>Social Media</a></div>
+						</div>
+					</div>
+					<div class="hover" onclick="accordion(1)">
+						<a><span class="glyphicon glyphicon-check"></span>Manage Category</a>
+					</div>
+					<div>
+						<div class="collapse">
+							<div class="hover"><a href="add-category.php"><span class="glyphicon glyphicon-pencil"></span>Create Category</a></div>
+							<div class="hover"><a href="list-category.php"><span class="glyphicon glyphicon-list-alt"></span>View Category</a></div>
+						</div>
+					</div>
+					<div class="hover" onclick="accordion(2)">
+						<a><span class="glyphicon glyphicon-scale"></span>Manage Post</a>
+					</div>
+					<div>
+						<div class="collapse">
+							<div class="hover"><a href="add-post.php"><span class="glyphicon glyphicon-pencil"></span>Create Post</a></div>
+							<div class="hover"><a href="list-post.php"><span class="glyphicon glyphicon-list-alt"></span>View Post</a></div>
+						</div>
+					</div>
+					<div class="hover">
+						<a href="inbox.php"><span class="glyphicon glyphicon-comment"></span>Inbox</a>
+					</div>
+					<div class="hover" onclick="accordion(3)">
+						<a><span class="glyphicon glyphicon-user"></span>User</a>
+					</div>
+					<div>
+						<div class="collapse">
+							<div class="hover"><a href="user-profile"><span class=" glyphicon glyphicon-king"></span>Profile</a></div>
+							<div class="hover"><a href="list-user.php"><span class="glyphicon glyphicon-list-alt"></span>View User</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+<!--sidebar-->
+<!--content-->
+			<div class="col-md-10 display-table-cell" id="content">
+				<h1 class="text-center">welcome to admin panel.</h1>
+			</div>
+		</div>
+<!--content-->
+	</div>
+<!--main content-->
+	<script type="text/javascript" src="resources/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="resources/js/bootstrap.js"></script>
+	<script type="text/javascript" src="resources/js/script.js"></script>
+</body>
+</html>

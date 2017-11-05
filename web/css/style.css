@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+body {
+	font-family: arial, sans-serif;
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #060;
+}
+header > h1 {
+	color: #eee;
+	text-shadow: 1px 1px #ddd;
+	font-size: 45px;
+	padding: 10px; 
+}
+nav {
+	height: 50px;
+	background: #030;
+}
+nav > ul {
+	padding: 10px;
+	list-style: none;
+}
+nav > ul > li {
+	display: inline;
+	padding: 10px 50px;
+}
+nav > ul > li > a {
+	font-size: 22px;
+	color: #eee;
+	text-decoration: none;
+}
+nav > ul > li > a:hover {
+	text-decoration: underline;
+}
+section {
+	height: 550px;
+}
+.match {
+	float:left;
+	margin: 22px;
+}
+.match h1 {
+	margin-bottom: 5px;
+}
+.match h1 a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #666;
+}
+.match a:hover {
+	text-decoration: underline;
+}
+.table {
+	width: 100%;
+	margin: 10px 0;
+}
+.table tr th{
+	background: #090;
+	padding: 10px;
+	color: #ddd;
+}
+.table tr td{
+	margin: 15px;
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+	text-align: center;
+}
+footer {
+	height: 50px;
+	background: #030;
+}
+footer > p {
+	color: #eee;
+	text-align: center;
+	padding: 15px;
+}

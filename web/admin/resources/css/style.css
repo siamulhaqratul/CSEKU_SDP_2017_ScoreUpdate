@@ -1,0 +1,52 @@
+html, body {
+	font-family: "open sans", "Helvetica neve", helvatica, arial, sans-serif;
+	background: #f3f3f4;
+	color: #676a5c;
+	height: 100%;
+}
+#header {
+  height: 140px;	
+}
+#header > a img{
+	margin-right: 15px;
+	float: left;
+}
+#header > a h1{
+	float: left;
+}
+#side-menu {
+	background: #2f4050;
+	padding: 10px;
+}
+.display-table {
+	height: 100%;
+	display: table;
+	width: 100%;
+	padding: 0px;
+}
+.display-table-row {
+	display: table-row;
+}
+.display-table-cell {
+	display: table-cell;
+	float: none;
+}
+.menu {
+	margin-bottom: 0px;
+}
+.side-menu-content a {
+	color: #ddd;
+	font-size: 18px
+}
+.collapse{
+	display: none;
+	margin-left: 30px;
+}
+.hover:hover{
+	cursor: pointer;
+	border-right: 6px solid #dd0000;
+}
+.image {
+	height: 70px;
+	width: 70px;
+}
