@@ -18,7 +18,7 @@ Project Description:
 
 
 
-Project Manager:   
+Project Manager:
 
 	Dr.Kazi Masudul Alam
 
@@ -39,17 +39,17 @@ Project Manager:
 	Khulna University,Khulna,Bangladesh
 
 Developed By:
-
-        MD. Siamul Haque
-        St. ID: 150226
-        MD. Moniruzzaman
-        St. ID: 150227
-        Tanvir Hasan
-        St. ID: 150234
-
+	
+	MD. Siamul Haque
+	St. ID: 150226
+	MD. Moniruzzaman
+	St. ID: 150227
+	Tanvir Hasan
+	St. ID: 150234
+	
 Project Description:
 
-        This is the project of Live Cricket Score Board with Auto Update.
-        In this project super admin can create multiple Cricket matches and assign
-        a admin to control the game.
-        General users can see those games status with auto update.
+	This is the project of Live Cricket Score Board with Auto Update.
+	In this project super admin can create multiple Cricket matches and assign
+	a admin to control the game.
+	General users can see those games status with auto update.
